@@ -1,0 +1,52 @@
+
+.content__model{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    .image__model{
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 480px;
+        height: 585px;
+        background-position: center;
+        
+    }
+    .glasses__image{
+        
+        position: absolute;
+        top: 23%;
+        left: 9%;
+        z-index: 2;
+    }
+    .glasses__des{
+        width: 100%;
+        background-color:#dd720e9e;
+        position: absolute;
+        top: 65%;
+        left: 0;
+        z-index: 2;
+        h3{
+            text-align: start;
+            color: blueviolet;
+        }
+    }
+}
+.glass__model{
+    z-index: 5;
+    .button{
+        border: none;
+        width: 100px;
+        height: 100px;
+        img{
+            width: 100%;
+        }
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}

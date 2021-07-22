@@ -1,0 +1,26 @@
+.Home__room{
+    height:100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1{
+        color: rgb(192, 192, 192);
+        display: inline-block;
+        z-index: 5;
+        position: relative;
+    }
+    .den{
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: .7;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    .container{
+        top:0;
+        left: 0;
+        z-index: 4;
+    }
+}
